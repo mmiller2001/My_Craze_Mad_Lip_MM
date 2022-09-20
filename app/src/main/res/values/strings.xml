@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">My_Craze_Mad_Lip_MM</string>
-    <string name="edit_message">Name</string>
+    <string name="edit_message"></string>
     <string name="button_send">Map Libs!</string>
     <string name="second_word">Last_Name</string>
     <string name="instructions">Instructions: \nList all the words according to their description and then click "Mad Libs"</string>
-    <string name="Word2">Exclamation Statement</string>
-    <string name="Word3">Adjective</string>
-    <string name="Word4">Past Tense Verb</string>
-    <string name="Word5">Noun</string>
-    <string name="Word6">Verb ending in \'ing\'</string>
-    <string name="Word7">Band Name</string>
-    <string name="Word8">Time Frame</string>
-    <string name="Word9">Living Organism</string>
-    <string name="Word10">Animal</string>
+    <string name="Word2"></string>
+    <string name="Word3"></string>
+    <string name="Word4"></string>
+    <string name="Word5"></string>
+    <string name="Word6"></string>
+    <string name="Word7"></string>
+    <string name="Word8"></string>
+    <string name="Word9"></string>
+    <string name="Word10"></string>
 
     <string name="Mad_Lip1">Inside an island separated from mankind, the young and ruthless</string>
     <string name="Mad_Lip2">became the greatest warrior.</string>
