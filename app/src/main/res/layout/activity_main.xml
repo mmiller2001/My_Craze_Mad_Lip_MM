@@ -150,6 +150,7 @@
         android:fontFamily="sans-serif-black"
         android:inputType="textPersonName"
         android:hint="Write a First Name"
+        android:importantForAutofill="yes"
         android:textColorHint="@color/white"
         android:text="@string/edit_message"
         android:textColor="#FFFFFF"

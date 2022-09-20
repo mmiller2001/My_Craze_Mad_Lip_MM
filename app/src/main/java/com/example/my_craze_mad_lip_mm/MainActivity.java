@@ -5,10 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    EditText first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth;
+    Button submit;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +59,52 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("Ninth_Word", message9);
         intent.putExtra("Tenth_Word", message10);
 
-        startActivity(intent);
+        first = (EditText) findViewById(R.id.First_Word);
+        second = (EditText) findViewById(R.id.Second_Word);
+        third = (EditText) findViewById(R.id.Third_Word);
+        fourth = (EditText) findViewById(R.id.Fourth_Word);
+        fifth = (EditText) findViewById(R.id.Fifth_Word);
+        sixth = (EditText) findViewById(R.id.Sixth_Word);
+        seventh = (EditText) findViewById(R.id.Seventh_Word);
+        eighth = (EditText) findViewById(R.id.Eighth_Word);
+        ninth = (EditText) findViewById(R.id.Ninth_Word);
+        tenth = (EditText) findViewById(R.id.Tenth_Word);
+        submit = (Button) findViewById(R.id.button);
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(first.length() == 0) {
+                    first.setError("Enter Name");
+                }
+                else if(second.length() == 0) {
+                    second.setError("Enter Exclamation");
+                }
+                else if(third.length() == 0) {
+                    third.setError("Enter Adjective");
+                }
+                else if(fourth.length() == 0) {
+                    fourth.setError("Enter Past Tense Verb");
+                }
+                else if(fifth.length() == 0) {
+                    fifth.setError("Enter Noun");
+                }
+                else if(sixth.length() == 0) {
+                    sixth.setError("Enter Verb ending in ing");
+                }
+                else if(seventh.length() == 0) {
+                    seventh.setError("Enter Band Name");
+                }
+                else if(eighth.length() == 0) {
+                    eighth.setError("Enter Time Frame");
+                }
+                else if(ninth.length() == 0) {
+                    ninth.setError("Enter Living Organism");
+                }
+                else {
+                    startActivity(intent);
+                }
+            }
+        });
     }
 }
