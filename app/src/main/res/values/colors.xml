@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="AOT_Green">#294023</color>
+    <color name="AOT_Brown">#6f553f</color>
+    <color name="AOT_Skin">#d2c4ae</color>
 </resources>
