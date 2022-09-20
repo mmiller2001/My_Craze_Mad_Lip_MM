@@ -8,7 +8,7 @@
     android:background="@drawable/eldia">
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/Tenth_Word"
         android:layout_width="297dp"
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
@@ -20,10 +20,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+        app:layout_constraintTop_toBottomOf="@+id/Ninth_Word" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/Eighth_Word"
         android:layout_width="296dp"
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
@@ -35,10 +35,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+        app:layout_constraintTop_toBottomOf="@+id/Seventh_Word" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
+        android:id="@+id/Ninth_Word"
         android:layout_width="297dp"
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
@@ -50,10 +50,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+        app:layout_constraintTop_toBottomOf="@+id/Eighth_Word" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/Seventh_Word"
         android:layout_width="298dp"
         android:layout_height="41dp"
         android:layout_marginTop="12dp"
@@ -65,10 +65,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintTop_toBottomOf="@+id/Sixth_Word" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/Sixth_Word"
         android:layout_width="299dp"
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
@@ -80,10 +80,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintTop_toBottomOf="@+id/Fifth_Word" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/Fifth_Word"
         android:layout_width="300dp"
         android:layout_height="37dp"
         android:layout_marginTop="12dp"
@@ -95,10 +95,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/Fourth_Word" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/Fourth_Word"
         android:layout_width="299dp"
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
@@ -110,10 +110,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/Third_Word" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/Third_Word"
         android:layout_width="300dp"
         android:layout_height="37dp"
         android:layout_marginTop="12dp"
@@ -125,7 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/Second_Word" />
 
     <EditText
         android:id="@+id/First_Word"
@@ -149,8 +149,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/AOT_Green"
-        android:backgroundTint="@color/AOT_Green"
+        android:background="@color/AOT_Skin"
+        android:backgroundTint="@color/AOT_Skin"
         android:fontFamily="sans-serif-condensed-medium"
         android:onClick="sendMessage"
         android:text="@string/button_send"
@@ -162,7 +162,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/Second_Word"
         android:layout_width="300dp"
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
